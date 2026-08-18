@@ -8,7 +8,7 @@ type ProfilePhotoProps = {
 
 export function ProfilePhoto({
   src = "/images/parisa-profile.png",
-  alt = "Parisa, Junior Full-Stack Developer",
+  alt = "Parisa Montakhabisani, Junior Full-Stack Developer",
   className = "",
 }: ProfilePhotoProps) {
   return (

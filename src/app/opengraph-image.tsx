@@ -61,7 +61,7 @@ export default function Image() {
             marginTop: 24,
           }}
         >
-          Parisa Montakhabi
+            Parisa Montakhabisani
         </div>
 
         <div

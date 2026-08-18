@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 const siteUrl = "https://parisa-portfolio-nu.vercel.app";
 
-const title = "Parisa Montakhabi | Full-Stack Developer";
+const title = "Parisa Montakhabisani | Full-Stack Developer";
 const description =
   "Junior Full-Stack Developer based in Italy with professional frontend experience in React, Next.js and TypeScript, and hands-on full-stack development with Node.js, Express and MongoDB.";
 
@@ -22,7 +22,7 @@ const ogImage = {
   url: "/opengraph-image",
   width: 1200,
   height: 630,
-  alt: "Parisa Montakhabi — Full-Stack Developer portfolio",
+  alt: "Parisa Montakhabisani — Full-Stack Developer portfolio",
 };
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   title,
   description,
   keywords: [
-    "Parisa Montakhabi",
+    "Parisa Montakhabisani",
     "Junior Full-Stack Developer",
     "Full-Stack Developer",
     "Frontend Developer",
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     "REST APIs",
     "Italy",
   ],
-  authors: [{ name: "Parisa Montakhabi", url: siteUrl }],
-  creator: "Parisa Montakhabi",
+  authors: [{ name: "Parisa Montakhabisani", url: siteUrl }],
+  creator: "Parisa Montakhabisani",
   alternates: {
     canonical: siteUrl,
   },
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Parisa Montakhabi",
+    siteName: "Parisa Montakhabisani",
     title,
     description,
     images: [ogImage],
