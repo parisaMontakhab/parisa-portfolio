@@ -12,10 +12,56 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://parisa-portfolio-nu.vercel.app";
+
+const title = "Parisa Montakhabi | Full-Stack Developer";
+const description =
+  "Junior Full-Stack Developer based in Italy with professional frontend experience in React, Next.js and TypeScript, and hands-on full-stack development with Node.js, Express and MongoDB.";
+
 export const metadata: Metadata = {
-  title: "Parisa | Junior Full-Stack Developer",
-  description:
-    "Parisa is a Junior Full-Stack Developer based in Italy, building modern web applications with React, Next.js, TypeScript, Node.js, and MongoDB.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  keywords: [
+    "Parisa Montakhabi",
+    "Junior Full-Stack Developer",
+    "Full-Stack Developer",
+    "Frontend Developer",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "REST APIs",
+    "Italy",
+  ],
+  authors: [{ name: "Parisa Montakhabi", url: siteUrl }],
+  creator: "Parisa Montakhabi",
+  alternates: {
+    canonical: siteUrl,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: "Parisa Montakhabi",
+    title,
+    description,
+    images: [
+      {
+        url: "/images/parisa-profile.jpg",
+        alt: "Parisa Montakhabi, Junior Full-Stack Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/images/parisa-profile.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
