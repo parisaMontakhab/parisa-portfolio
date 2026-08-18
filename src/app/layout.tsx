@@ -73,6 +73,49 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Parisa Montakhabisani",
+              url: "https://parisa-portfolio-nu.vercel.app/",
+              image:
+                "https://parisa-portfolio-nu.vercel.app/images/parisa-profile.jpg",
+              jobTitle: "Junior Full-Stack Developer",
+              worksFor: [
+                {
+                  "@type": "Organization",
+                  name: "Chemanca",
+                  url: "https://chemanca.it",
+                },
+                {
+                  "@type": "Organization",
+                  name: "Italeader",
+                  url: "https://italeader.com",
+                },
+              ],
+              knowsAbout: [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "JavaScript",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "REST APIs",
+                "TanStack React Query",
+                "Tailwind CSS",
+                "Bootstrap",
+              ],
+              sameAs: [
+                "https://github.com/parisaMontakhab",
+                "https://www.linkedin.com/in/parisamontakhabisani/",
+              ],
+            }),
+          }}
+        />
         {children}
       </body>
     </html>
