@@ -8,7 +8,7 @@ Built with **Next.js, React, TypeScript, and Tailwind CSS**.
 
 ## 🌐 Live Portfolio
 
-🚀 **Live Demo:** Coming soon
+🚀 **Live Demo:** (https://parisa-portfolio-nu.vercel.app/)
 
 > The portfolio will be deployed on Vercel.
 
