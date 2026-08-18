@@ -18,6 +18,13 @@ const title = "Parisa Montakhabi | Full-Stack Developer";
 const description =
   "Junior Full-Stack Developer based in Italy with professional frontend experience in React, Next.js and TypeScript, and hands-on full-stack development with Node.js, Express and MongoDB.";
 
+const ogImage = {
+  url: "/opengraph-image",
+  width: 1200,
+  height: 630,
+  alt: "Parisa Montakhabi — Full-Stack Developer portfolio",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
@@ -49,18 +56,13 @@ export const metadata: Metadata = {
     siteName: "Parisa Montakhabi",
     title,
     description,
-    images: [
-      {
-        url: "/images/parisa-profile.jpg",
-        alt: "Parisa Montakhabi, Junior Full-Stack Developer",
-      },
-    ],
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: ["/images/parisa-profile.jpg"],
+    images: [ogImage.url],
   },
 };
 
