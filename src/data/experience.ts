@@ -5,8 +5,11 @@ export const experienceEntries: ExperienceEntry[] = [
     company: "Chemanca",
     role: "Frontend Developer",
     links: [
-      { label: "Visit Website", href: "https://chemanca.it" },
-      { label: "Visit Platform", href: "https://hub.chemanca.it" },
+      { label: "Visit Website", href: "https://chemanca.it/it" },
+      {
+        label: "Visit Platform",
+        href: "https://hub.chemanca.it",
+      },
     ],
     responsibilities: [
       "Developed reusable, maintainable, and responsive React components based on Figma designs.",
